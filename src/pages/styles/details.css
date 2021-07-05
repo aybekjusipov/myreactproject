@@ -1,0 +1,27 @@
+.newsDetails{
+    padding: 20px 0;
+}
+
+.newsDetails a{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.newsDetails-body h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.newsDetails-body p{
+    font-size: 30px;
+    letter-spacing: 1.4px;
+    word-spacing: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.newsDetails-body p::first-letter{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: tomato;
+}
